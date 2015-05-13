@@ -7,5 +7,6 @@
 ClassA	ClassA.php	/^class ClassA$/;"	c
 ClassB	ClassB.php	/^class ClassB$/;"	c
 a	ClassA.php	/^  public function a()$/;"	f	class:ClassA	access:public	signature:()
-bMethod	ClassB.php	/^  public function bMethod() $/;"	f	class:ClassB	access:public	signature:()
+bMethod	ClassB.php	/^  public function bMethod() {}$/;"	f	class:ClassB	access:public	signature:()
+bMethod2	ClassB.php	/^  public function bMethod2() {}$/;"	f	class:ClassB	access:public	signature:()
 classb	ClassA.php	/^  private $classb;$/;"	v	class:ClassA	access:private
