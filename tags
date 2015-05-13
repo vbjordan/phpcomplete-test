@@ -1,0 +1,11 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	Development	//
+ClassA	ClassA.php	/^class ClassA$/;"	c
+ClassB	ClassB.php	/^class ClassB$/;"	c
+a	ClassA.php	/^  public function a()$/;"	f	class:ClassA	access:public	signature:()
+bMethod	ClassB.php	/^  public function bMethod() $/;"	f	class:ClassB	access:public	signature:()
+classb	ClassA.php	/^  private $classb;$/;"	v	class:ClassA	access:private
